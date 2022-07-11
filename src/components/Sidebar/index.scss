@@ -37,9 +37,12 @@
       line-height: 51px;
       height: 51px;
       position: relative;
-    }
-    i {
-      transition: all 0.3s ease-out;
+      i {
+        transition: all 0.3s ease-out;
+      }
+      &:hover {
+        color: #ffd700;
+      }
     }
   }
 }
