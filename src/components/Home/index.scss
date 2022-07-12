@@ -1,6 +1,7 @@
 .home-page {
   .text-zone {
     position: absolute;
+    margin-left: 1rem;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
@@ -29,7 +30,7 @@
       color: #ffd700;
       font-size: 18px;
       position: absolute;
-      margin-top: 18px;
+      margin-top: 24px;
       margin-left: 20px;
       opacity: 0.6;
       animation: fadeIn 1s 1.7s backwards;

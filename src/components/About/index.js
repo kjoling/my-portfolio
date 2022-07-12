@@ -43,7 +43,11 @@ const About = () => {
           <p>
             I am a newer developer looking for a role within a company where I
             can build upon my skills, work with the newest technologies, and
-            engage with a diverse set of people and projects.
+            engage with a diverse set of people and projects. Current skills and
+            languages include JavaScript, jQuery, React, Redux / Redux Toolkit,
+            Next.js, Express.js, beginner level Node.js and Python, Git, GitHub,
+            Html5, Css3, SQL, as well as proficiency in Microsoft Office, Excel
+            and fundamental understanding of PowerBI.
           </p>
           <p>
             I am calm, confident, self-motivated, naturally curious, and

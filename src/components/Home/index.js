@@ -7,7 +7,21 @@ import Logo from '../Logo'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['K', 'e', 'e', 'a', 'n', 'J']
-  const aspiringArray = ['a', 'n', ' ', 'a', 's', 'p', 'i', 'r', 'i', 'n', 'g']
+  const aspiringArray = [
+    ',',
+    ' ',
+    'a',
+    'n',
+    ' ',
+    'a',
+    's',
+    'p',
+    'i',
+    'r',
+    'i',
+    'n',
+    'g',
+  ]
   const jobArray = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
   useEffect(() => {
@@ -31,8 +45,6 @@ const Home = () => {
               strArray={nameArray}
               idx={15}
             />
-            ,
-            <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={aspiringArray}
@@ -41,7 +53,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={33}
+              idx={34}
             />
           </h1>
           <h2>Juninor Frontend Developer & working towards Fullstack.</h2>

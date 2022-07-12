@@ -1,20 +1,21 @@
-import { useEffect, useRef, useState } from 'react'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const refForm = useRef()
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
 
-  const sendEmail = (e) => {
-    e.preventDefault()
-  }
+  // const sendEmail = (e) => {
+  //   e.preventDefault()
+  // }
   return (
     <>
       <div className="container contact-page">
@@ -24,7 +25,14 @@ const Contact = () => {
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', ' e']}
               idx={15}
               letterClass={letterClass}
-            />
+            />{' '}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:jolingkw@gmail.com&subject=Project Inquiry"
+            >
+              <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </a>
           </h1>
           <p>
             I am interested in opportunities at startups or established
@@ -32,7 +40,7 @@ const Contact = () => {
             to contact me.
           </p>
           <div className="contact-form">
-            <form ref={refForm} onSubmit={sendEmail}>
+            {/* <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
@@ -60,7 +68,7 @@ const Contact = () => {
                   <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className="info">
@@ -70,7 +78,16 @@ const Contact = () => {
           <br />
           Renton, WA
           <br />
-          <span>jolingkw@gmail.com</span>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:jolingkw@gmail.com&subject=Project Inquiry"
+          >
+            <span>
+              jolingkw@gmail.com{' '}
+              <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </span>
+          </a>
         </div>
       </div>
       <Loader type="cube-transition" />

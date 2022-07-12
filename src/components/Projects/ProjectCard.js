@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './projectCard.scss'
 
 const ProjectCard = ({
@@ -7,7 +7,7 @@ const ProjectCard = ({
   projectDetails,
   projectTitle,
 }) => {
-  const [viewMore, toggleViewMore] = useState(false)
+  // const [viewMore, toggleViewMore] = useState(false)
 
   return (
     <section className="card">
