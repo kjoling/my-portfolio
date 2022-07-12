@@ -14,6 +14,14 @@ import Loader from 'react-loaders'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const skills = [
+    { icon: faJsSquare, color: '#efd81d' },
+    { icon: faHtml5, color: '#f06529' },
+    { icon: faCss3, color: '#28a4d9' },
+    { icon: faReact, color: '#5ed4f4' },
+    { icon: faNodeJs, color: 'forrestgreen' },
+    { icon: faGitAlt, color: '#ec4d28' },
+  ]
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,24 +58,11 @@ const About = () => {
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faJsSquare} color="#efd81d" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#f06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28a4d9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ed4f4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faNodeJs} color="forrestgreen" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#ec4d28" />
-            </div>
+            {skills.map((skill, idx) => (
+              <div key={idx}>
+                <FontAwesomeIcon icon={skill.icon} color={skill.color} />
+              </div>
+            ))}
           </div>
         </div>
       </div>
