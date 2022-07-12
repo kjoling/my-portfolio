@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  //remove scroll from page, move elements up from bottom
 }
 .top-tags {
   bottom: auto;
@@ -39,7 +40,8 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   .text-zone {
     position: absolute;
     left: 10%;

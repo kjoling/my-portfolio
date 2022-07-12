@@ -48,12 +48,16 @@ const Sidebar = () => (
     </nav>
     <ul>
       <li>
-        <a target="_blank" rel="noreferrer" href="linkedIn">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/keean-joling-4b96a5228/"
+        >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="GitHub">
+        <a target="_blank" rel="noreferrer" href="https://github.com/kjoling">
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
       </li>
