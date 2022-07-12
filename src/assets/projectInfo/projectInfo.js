@@ -1,5 +1,7 @@
 import redditClientImgLink from '../images/projectImages/redditClientImg.png'
 import todoAppImg from '../images/projectImages/todoAppImg.png'
+import blogPostAppImg from '../images/projectImages/blog_post_redux_app.png'
+import colorPickerAppImg from '../images/projectImages/color_picker_app.png'
 export const projectInfo = [
   {
     title: 'Reddit Minimal',
@@ -11,14 +13,14 @@ export const projectInfo = [
   {
     title: 'Color Picker',
     link: 'https://kjoling-color-picker-app.netlify.app/',
-    img: todoAppImg,
+    img: colorPickerAppImg,
     details:
       'This application allows you to create your own color palettes, as well as pick from some premade ones.  You can also delete premade color palettes and will need to clear your local storage in order to access them again. ',
   },
   {
     title: 'Blog Post App',
     link: 'https://kjolingblogpostredux.netlify.app/',
-    img: todoAppImg,
+    img: blogPostAppImg,
     details:
       'This application uses Redux Toolkit for state management and grabs data from the free json place holder API.  It supports CRUD opperations, though it is frontend only and does not update a database.  It is based off a tutorial from David Gray on youtube. ',
   },
