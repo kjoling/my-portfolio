@@ -6,8 +6,6 @@ import Logo from '../Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['K', 'e', 'e', 'a', 'n', ' ', 'J', 'o', 'l', 'i', 'n', 'g']
-
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -25,8 +23,13 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m </span>{' '}
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={nameArray}
+              strArray={['Keean']}
               idx={15}
+            />{' '}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['Joling']}
+              idx={20}
             />
           </h1>
           <h2>Juninor Developer / Business Analyst</h2>

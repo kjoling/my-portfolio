@@ -35,9 +35,9 @@ const Contact = () => {
             </a>
           </h1>
           <p>
-            I am interested in opportunities at startups or established
-            companies. However, if you have any other questions, don't hesitate
-            to contact me.
+            I am interested in opportunities at startups, established companies,
+            or freelance work. However, if you have any other questions, don't
+            hesitate to contact me.
           </p>
         </div>
         <div className="info">
