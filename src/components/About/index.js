@@ -47,9 +47,10 @@ const About = () => {
             Express, Node.js, Python, Git, jQuery, Html5, Css3, and SQL.
           </p>
           <p>
-            I'm calm, confident, self-motivated, curious, and constantly
-            learning how improve myself both personally and professionally. My
-            long term goal is to become a Fullstack developer.
+            I'm calm, conscientious, confident, adaptable, self-motivated,
+            curious, and a life long learner. My long term goal is to become a
+            developer / analyst who is highly impactful and pleasant to work
+            with.
           </p>
           <p>
             My hobbies include working out, learning how to dj, playing computer
