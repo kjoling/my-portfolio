@@ -12,7 +12,8 @@ const Projects = () => {
             projectTitle={project.title}
             projectImg={project.img}
             projectDetails={project.details}
-            projectLink={project.link} //edit links to actual project pages
+            projectLink={project.link}
+            github={project.github}
             key={idx}
           />
         ))}

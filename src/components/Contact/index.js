@@ -39,37 +39,6 @@ const Contact = () => {
             companies. However, if you have any other questions, don't hesitate
             to contact me.
           </p>
-          <div className="contact-form">
-            {/* <form ref={refForm} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input type="text" name="name" placeholder="Name" required />
-                </li>
-                <li className="half">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea placeholder="Message..." required name="message" />
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form> */}
-          </div>
         </div>
         <div className="info">
           Keean Joling,

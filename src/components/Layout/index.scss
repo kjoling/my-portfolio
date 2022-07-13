@@ -86,7 +86,7 @@
       }
     }
     p {
-      font-size: 13px;
+      font-size: 1.6rem;
       color: #fff;
       font-family: 'sans-serif';
       font-weight: 300;
@@ -107,6 +107,12 @@
   .text-animate-hover {
     &:hover {
       color: white;
+    }
+  }
+  a svg {
+    &:hover {
+      transition: 0.2s ease-in-out;
+      color: #ffd700 !important;
     }
   }
 }
