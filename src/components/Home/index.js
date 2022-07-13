@@ -6,23 +6,7 @@ import Logo from '../Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['K', 'e', 'e', 'a', 'n', 'J']
-  const aspiringArray = [
-    ',',
-    ' ',
-    'a',
-    'n',
-    ' ',
-    'a',
-    's',
-    'p',
-    'i',
-    'r',
-    'i',
-    'n',
-    'g',
-  ]
-  const jobArray = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+  const nameArray = ['K', 'e', 'e', 'a', 'n', ' ', 'J', 'o', 'l', 'i', 'n', 'g']
 
   useEffect(() => {
     setTimeout(() => {
@@ -39,24 +23,13 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m </span>{' '}
-            {/* <img src={Logosubtitle} alt="developer" /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={15}
             />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={aspiringArray}
-              idx={22}
-            />{' '}
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={34}
-            />
           </h1>
-          <h2>Juninor Frontend Developer & working towards Fullstack.</h2>
+          <h2>Juninor Developer / Business Analyst</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
