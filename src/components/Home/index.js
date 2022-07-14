@@ -34,7 +34,7 @@ const Home = () => {
             />
           </h1>
           <div className="tag">{'</h1>'}</div>
-          <h2>Juninor Developer / Business Analyst</h2>
+          <h2>Junior Developer / Business Intelligence</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
