@@ -20,6 +20,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
+          <div className="tag">{'<h1>'}</div>
           <h1>
             <AnimatedLetters
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', ' e']}
@@ -34,6 +35,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </a>
           </h1>
+          <div className="tag">{'</h1>'}</div>
           <p>
             I am interested in opportunities at startups, established companies,
             or freelance work. However, if you have any other questions, don't

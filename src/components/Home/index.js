@@ -15,6 +15,7 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
+          <div className="tag">{'<h1>'}</div>
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
@@ -32,6 +33,7 @@ const Home = () => {
               idx={20}
             />
           </h1>
+          <div className="tag">{'</h1>'}</div>
           <h2>Juninor Developer / Business Analyst</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

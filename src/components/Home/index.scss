@@ -8,33 +8,20 @@
     width: 40%;
     max-height: 90%;
   }
+  .tag {
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    color: #ffd700;
+    opacity: 0.6;
+    margin-left: 2rem;
+    text-shadow: 1px 1px 1px black;
+  }
   h1 {
     color: #fff;
     font-size: 53px;
     margin: 0;
     margin-left: 3rem;
     font-family: 'Coolvetica';
-
-    &::before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: 15px;
-      opacity: 0.6;
-    }
-    &::after {
-      content: '</h1>';
-      font-family: 'La Belle Aurore';
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 75px;
-      left: 10px;
-      opacity: 0.6;
-    }
     img {
       width: 80%;
       margin-left: 20px;
@@ -45,8 +32,8 @@
   }
   h2 {
     color: #8d8d8d;
-    box-shadow: #8d8d8d;
     margin-top: 20px;
+    margin-left: 2rem;
     font-weight: 400;
     font-size: 16px;
     font-family: 'sans-serif';

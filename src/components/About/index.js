@@ -33,13 +33,15 @@ const About = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
+          <div className="tag">{'<h1>'}</div>
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={['A', 'b', 'o', 'u', 't', ' ', 'me']}
               idx={15}
             />
           </h1>
+          <div className="tag">{'</h1>'}</div>
           <p>
             I'm a junior developer looking to build my skills, utilize the
             newest technologies, engage in challenging projects. I have
